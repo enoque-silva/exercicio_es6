@@ -21,8 +21,8 @@ const listaAlunos = [
     }
 ];
 
-const alunosAprovados = listaAlunos.filter((item)=>{
-    return item.nota >= 6;
+const alunosAprovados = listaAlunos.filter((aluno)=>{
+    return aluno.nota >= 6;
 })
 
 console.log(alunosAprovados);
